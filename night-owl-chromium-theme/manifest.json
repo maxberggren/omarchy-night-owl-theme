@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Night Owl Theme",
+  "version": "1.0",
+  "description": "A dark theme inspired by Night Owl VS Code theme with blue accents",
+  "theme": {
+    "colors": {
+      "frame": [1, 22, 39],
+      "frame_inactive": [1, 22, 39],
+      "frame_incognito": [1, 22, 39],
+      "frame_incognito_inactive": [1, 22, 39],
+      "toolbar": [1, 22, 39],
+      "tab_text": [210, 218, 235],
+      "tab_background_text": [95, 126, 151],
+      "bookmark_text": [210, 218, 235],
+      "ntp_background": [1, 22, 39],
+      "ntp_text": [210, 218, 235],
+      "ntp_link": [130, 170, 255],
+      "ntp_header": [1, 22, 39],
+      "button_background": [37, 51, 64],
+      "omnibox_background": [37, 51, 64],
+      "omnibox_text": [210, 218, 235]
+    },
+    "tints": {
+      "buttons": [0.2, 0.5, 0.8]
+    },
+    "properties": {
+      "ntp_background_alignment": "bottom"
+    }
+  }
+}
