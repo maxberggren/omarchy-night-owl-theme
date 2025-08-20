@@ -1,2 +1,7 @@
-@define-color foreground #7a8c91;
-@define-color background rgba(3, 25, 44, 0.8);
+@define-color foreground #ccc;
+@define-color background-transparent rgba(3, 25, 44, 0.97);
+
+window#waybar {
+    background-color: @background-transparent;
+    color: @foreground;
+}
