@@ -45,7 +45,7 @@
 }
 
 .nautilus-window .sidebar row:selected {
-    background-color: #7a8c91;
+    background-color: #cccccc;
 }
 
 .nautilus-window headerbar {
@@ -75,7 +75,7 @@ window {
 }
 
 .sidebar row:selected {
-    background-color: #7a8c91;
+    background-color: #cccccc;
 }
 
 /* Header bar */
@@ -119,7 +119,7 @@ filechooser .sidebar row {
 }
 
 filechooser .sidebar row:selected {
-    background-color: #7a8c91;
+    background-color: #cccccc;
 }
 
 filechooser placessidebar {
@@ -131,7 +131,7 @@ filechooser placessidebar row {
 }
 
 filechooser placessidebar row:selected {
-    background-color: #7a8c91;
+    background-color: #cccccc;
 }
 
 filechooser .path-bar {
@@ -260,7 +260,7 @@ notebook tab {
 }
 
 notebook tab:checked {
-    background-color: #7a8c91;
+    background-color: #cccccc;
 }
 
 /* Paned containers */
@@ -288,7 +288,7 @@ listbox row {
 }
 
 listbox row:selected {
-    background-color: #7a8c91;
+    background-color: #cccccc;
 }
 
 treeview {
@@ -296,7 +296,7 @@ treeview {
 }
 
 treeview:selected {
-    background-color: #7a8c91;
+    background-color: #cccccc;
 }
 
 /* Flow boxes */
@@ -309,7 +309,7 @@ flowbox flowboxchild {
 }
 
 flowbox flowboxchild:selected {
-    background-color: #7a8c91;
+    background-color: #cccccc;
 }
 
 /* Icon views */
@@ -318,7 +318,7 @@ iconview {
 }
 
 iconview:selected {
-    background-color: #7a8c91;
+    background-color: #cccccc;
 }
 
 /* Frames */
@@ -332,11 +332,50 @@ button {
 }
 
 button:hover {
-    background-color: #7a8c91;
+    background-color: #03192c;
 }
 
 button:active {
-    background-color: #7a8c91;
+    background-color: #03192c;
+}
+
+/* Dialog buttons */
+.dialog-action-area button {
+    background-color: #03192c;
+}
+
+.dialog-action-area button:hover {
+    background-color: #03192c;
+}
+
+.dialog-action-area button:active {
+    background-color: #03192c;
+}
+
+/* File chooser buttons */
+filechooser button {
+    background-color: #03192c;
+}
+
+filechooser button:hover {
+    background-color: #03192c;
+}
+
+filechooser button:active {
+    background-color: #03192c;
+}
+
+/* Header bar buttons */
+headerbar button {
+    background-color: #03192c;
+}
+
+headerbar button:hover {
+    background-color: #03192c;
+}
+
+headerbar button:active {
+    background-color: #03192c;
 }
 
 /* Entries/Input fields */

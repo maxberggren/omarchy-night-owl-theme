@@ -1,8 +1,8 @@
 @define-color bg #03192c;
 @define-color fg #7a8c91;
 @define-color gray1 #03192c;
-@define-color gray2 #5f6f74;
-@define-color gray3 #7a8c91; 
+@define-color gray2 #999999;
+@define-color gray3 #cccccc; 
 @define-color gray4 #e9e2d0; 
 @define-color gray5 #fcf6e3; 
 @define-color fg_bright #e9e2d0;
